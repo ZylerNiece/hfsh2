@@ -1,6 +1,4 @@
 # Linux Shell: hfsh2
-## Operating Systems
-## Due February 20 by 23:59
 
 In this project, you will build a simple Unix shell. The shell is the heart of the command-line interface, and thus is central to the Linux/UNIX/C/C++ programming environment. Mastering use of the shell is necessary to become proficient in this world; knowing how the shell itself is built is the focus of this project.
 
