@@ -10,23 +10,6 @@ There are three specific objectives to this assignment:
 * To learn how processes are created, destroyed, and managed.
 * To gain exposure to the necessary functionality in shells.
 
-
-# Logistics
-- This project is worth 100 points.
-- This is an individual assignment.  I will be checking your source code using MOSS.
-- Your `hfsh2` shell program must be written in C/C++.  The use of the standard template library is permitted.
-- A `Makefile` is supplied.  Include additional targets to clean your source code subdirectory and another target to test your program.
-- Your source code file is `hfsh.cpp`.
-- The name of your executable must be `hfsh2`.
-- Your program must be well documented.
-- Your program must be well structured.  Programs that are all in `main()` or have excessively long functions will result in loss of points.
-- You are not permitted to use the `system()` library function.
-- You are permitted to use the functions in `csapp.h`.
-- Your program will be tested on `lovelace.cs.tcu.edu` (Ubuntu Server 22.04 LTS).
-- Keep your program up-to-date using git.
-- The test cases included with this project are the minimum test cases for submission.  Note: I may test your program with other test cases.
-
-
 # Overview
 In this assignment, you will implement a *command line interpreter (CLI)* or, as it is more commonly known, a *shell*.  The shell should operate in this basic way: when you type in a command (in response to its prompt), the shell creates a child process that executes the command you entered and then prompts for more user input when it has finished.
 
@@ -142,16 +125,3 @@ Check the return codes of all system calls from the very beginning of your work.
 Beat up your own code! You are the best (and in this case, the only) tester of this code. Throw lots of different inputs at it and make sure the shell behaves well. Good code comes through testing; you must run many different tests to make sure things work as desired. Don't be gentle -- other users certainly won't be. 
 
 Finally, keep versions of your code. More advanced programmers will use a source control system such as git. Minimally, when you get a piece of functionality working, make a copy of your .c file (perhaps a subdirectory with a version number, such as v1, v2, etc.). By keeping older, working versions around, you can comfortably work on adding new functionality, safe in the knowledge you can always go back to an older, working version if need be.
-
-
-# Points
- - Documentation (10 points)
- - Makefile (5 points)
- - Well structured (10 points)
- - Built-in commands (cd, exit) (Example test cases: 1, 2, 5, 15, 21) (10 points)
- - Basic shell (fork, exec) (Example test cases: 3, 4) (10 points)
- - Paths (Example test cases: 6, 7) (10 points)
- - Redirection (Example test cases: 8, 9, 10, 11, 12) (15 points)
- - Batch (Example test cases: 13, 14) (10 points)
- - Parallel commands (execute in background) (Example test cases: 16, 17, 18, 19) (15 points)
- - Other/combo (Example test cases: 20, 22) (5 points)
